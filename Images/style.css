@@ -1,0 +1,14 @@
+
+body{
+    background-image: url("Images/image\ 4.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+p{
+    color: white;
+}
+label{
+    color: white;
+}
+
