@@ -1,9 +1,9 @@
 body{
-    background-color: rgba(209, 227, 214, 0.712);
+    background-color: rgba(3, 62, 20, 0.712);
     margin : 0;
 }
 .topnav{
-    background-color: red;
+    background-color: rgb(231, 138, 138);
     overflow: hidden;
 }
 .topnav a{
@@ -15,7 +15,7 @@ body{
     padding: 14px 16px;
 }
 .Footer{
-    background-color: red;
+    background-color: rgb(231, 138, 138);
     padding: 20px;
     text-align: center;
     font-size: 0.6em;
