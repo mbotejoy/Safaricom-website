@@ -1,6 +1,30 @@
-
-.body{
-    background-color: rgb( rgb(91, 189, 91));
+body{
+    background-color: rgba(209, 227, 214, 0.712);
     margin : 0;
 }
+.topnav{
+    background-color: red;
+    overflow: hidden;
+}
+.topnav a{
+    color: rgb(125, 242, 154);
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+}
+.Footer{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.6em;
 
+}
+
+.content{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
