@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(205, 130, 45);
+    background-color: rgb(232, 175, 109);
     margin : 0;
 }
 .topnav{
@@ -16,6 +16,11 @@ body{
 }
 .topnav-Right{
     float: right;
+}
+.topnav a:hover{
+    color: #373737;
+    background-color: azure;
+    text-decoration: none;
 }
 .Footer{
     background-color: grey;
