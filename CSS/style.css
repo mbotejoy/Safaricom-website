@@ -47,7 +47,7 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  .form{
+.form{
     
         width: 50%;
         margin: 0 auto;
@@ -56,9 +56,28 @@ input[type=text], select {
         border-radius: 5px;
         box-shadow: gray;
         background-color: grey;
-
-        
-
     
   }
+.table{
+    border: solid 1px black;
+    width: 70%;
+    border-collapse: collapse;
+}
+td{
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: rgb(232, 175, 109);
+    color:rgb(125, 242, 154);
+    padding: 5px;
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: bisque;
+}
+tr:hover{
+    background-color: rgb(243, 235, 225);
+}
 
