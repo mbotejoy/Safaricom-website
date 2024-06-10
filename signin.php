@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include_once("templates/footer.php");?>
+    <?php include_once("templates/nav.php");?>
 
     <div class="form">
         <forms action="" class="form">
