@@ -5,7 +5,7 @@
     <a href="Customer Care.php" >Customer Care</a>
     <a href="shop.php" >Safaricom Shop</a>
     <a href="contact.html" >Contact us</a>
-    <a href="about.html">About</a>
+    <a href="about.php">About</a>
     <a href="help.html" >Help</a>
 
     <div class ="topnav-Right">
