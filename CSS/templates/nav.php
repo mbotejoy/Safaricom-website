@@ -1,8 +1,8 @@
 <div class="topnav">
             <!--Links to go back to the home page-->
-    <a href="index.html">Home</a>
+    <a href="index.php">Home</a>
     <a href="mpesa.html" >Mpesa</a>
-    <a href="Customer Care.html" >Customer Care</a>
+    <a href="Customer Care.php" >Customer Care</a>
     <a href="shop.html" >Safaricom Shop</a>
     <a href="contact.html" >Contact us</a>
     <a href="about.html">About</a>
