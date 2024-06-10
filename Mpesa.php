@@ -17,7 +17,7 @@
 
 </head>
 <body>
-<?php include_once("templates/footer.php");?>
+<?php include_once("templates/nav.php");?>
 <header>
         <div class="header">
         
@@ -55,7 +55,7 @@
   
        
        
-       
+ <?php include_once("templates/footer.php");?>
 
 
 </body>
