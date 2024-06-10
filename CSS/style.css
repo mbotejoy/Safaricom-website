@@ -58,26 +58,19 @@ input[type=text], select {
         background-color: grey;
     
   }
-.table{
-    border: solid 1px black;
-    width: 70%;
+  table {
+    font-family: arial, sans-serif;
     border-collapse: collapse;
-}
-td{
-    border: solid 1px black;
-    padding: 5px;
-    text-align: center;
-}
-th{
-    background-color: rgb(232, 175, 109);
-    color:rgb(125, 242, 154);
-    padding: 5px;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
     text-align: left;
-}
-tr:nth-child(odd){
-    background-color: bisque;
-}
-tr:hover{
-    background-color: rgb(243, 235, 225);
-}
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 
