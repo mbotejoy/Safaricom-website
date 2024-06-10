@@ -38,12 +38,9 @@
         Our mission is to to transform people's lives through technology<br><br>
         Feel Free to go through the rest of our Website to Know more about us <br><br>and what we have to offer!
     </div>
-</div>
-    <footer >
-        <p>Copyright - Safaricom &copy; -All Rights Reserved</p>
-    </footer>
 
-    
+
+ <?php include_once("template/footer.php");?>
    
 
 
