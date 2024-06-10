@@ -22,7 +22,7 @@
 
 </head>
 <body>
-<?php include_once("template/nav.php");?>
+<?php include_once("templates/nav.php");?>
 
 <header>
     <div class="header">
