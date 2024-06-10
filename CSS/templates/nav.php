@@ -9,7 +9,7 @@
     <a href="help.php" >Help</a>
 
     <div class ="topnav-Right">
-        <a href = "signup.html">Sign Up</a>
-        <a href="signin.html">Sign In</a>
+        <a href = "signup.php">Sign Up</a>
+        <a href="signin.php">Sign In</a>
     </div>
     </div>
