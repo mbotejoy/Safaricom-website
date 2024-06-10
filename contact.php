@@ -7,7 +7,7 @@
     <link rel="stylesheet"href="css/style.css">
 </head>
 <body>
-<?php include_once("template/nav.php");?>
+<?php include_once("templates/footer.php");?>
 
         <div class="Footer">
             Copyright - Safaricom &copy; -All Rights Reserved

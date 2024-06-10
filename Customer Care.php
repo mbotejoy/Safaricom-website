@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-<?php include_once("template/nav.php");?>
+<?php include_once("templates/footer.php");?>
 
 
     <header>
