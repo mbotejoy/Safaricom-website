@@ -6,7 +6,7 @@
     <a href="shop.php" >Safaricom Shop</a>
     <a href="contact.php" >Contact us</a>
     <a href="about.php">About</a>
-    <a href="help.html" >Help</a>
+    <a href="help.php" >Help</a>
 
     <div class ="topnav-Right">
         <a href = "signup.html">Sign Up</a>
