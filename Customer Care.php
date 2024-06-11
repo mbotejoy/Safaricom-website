@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-<?php include_once("templates/fnav.php");?>
+<?php include_once("templates/nav.php");?>
 
 
     <header>
