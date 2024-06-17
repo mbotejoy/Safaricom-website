@@ -48,14 +48,15 @@ input[type=text], select {
     box-sizing: border-box;
   }
 .form{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    box-shadow: gray;
+    background-color: grey;
+    padding: 12px 20px;
+    margin: 8px 0;
     
-        width: 50%;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: gray;
-        background-color: grey;
+
     
   }
   table {
