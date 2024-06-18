@@ -14,6 +14,13 @@
         <div class="header">
             <h1>Signup with Us Today</h1>
         </div>
+        <div class="content">
+        <h4>
+           <p>Don't seem to have an account?<br>
+           We are excited to have you on board!<br>
+           Sign Up today!</p>
+
+        </h4>
 
 </body>
 </html>
