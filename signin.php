@@ -8,6 +8,11 @@
 </head>
 <body>
     <?php include_once("templates/nav.php");?>
+    <header>
+        <div class="header">
+            <h1>Signin</h1>
+        </div>
+    </header>
 
     <div class="form">
         <forms action="" class="form">
