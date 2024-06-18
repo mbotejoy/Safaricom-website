@@ -10,7 +10,7 @@
     <?php include_once("templates/nav.php");?>
     <header>
         <div class="header">
-            <h1>Signin</h1>
+            <h1>Sign In</h1>
         </div>
     </header>
 
