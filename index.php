@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title >Safaricom Home</title>
     <!--LINK TO THE CSS FILE-->
-   <link rel="stylesheet"href="css/style.css">
+    <link rel="stylesheet"href="css/style.Css">
    <!--INTERNAL CSS-->
    <style>
     p{
