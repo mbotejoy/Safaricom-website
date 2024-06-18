@@ -77,4 +77,16 @@ input[type=text], select {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
-
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .topnav-right {
+        float: right;
+    }
+}
