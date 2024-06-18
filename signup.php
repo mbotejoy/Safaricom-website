@@ -7,6 +7,8 @@
     <link rel="stylesheet"href="css/style.Css">
 </head>
 <body>
-    
+
+<?php include_once("templates/nav.php");?>
+
 </body>
 </html>
