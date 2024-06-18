@@ -43,16 +43,7 @@
     
  <?php include_once("templates/footer.php");?>
    
-
-
-   
-</body>
-</html>
-
-
-
-
-<tr>
+ <tr>
     <td>Samsung  Galaxy S22 Ultra 256GB</td>
     <td>135,000</td>
     <td>15GB Data Bundle</td>
@@ -72,3 +63,11 @@
     <td>16,500</td>
     <td>10GB Data Bundle</td>
 </tr>
+
+   
+</body>
+</html>
+
+
+
+

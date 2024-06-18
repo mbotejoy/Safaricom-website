@@ -47,16 +47,15 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
-.form{
-    display: flex;
-    justify-content: center;
-    height: auto;
-    box-shadow: gray;
-    background-color: grey;
-    padding:  20px;
+  .form{
+    
     width: 50%;
     margin: 0 auto;
+    padding: 20px;
+    background-color: grey;
     border-radius: 5px;
+    box-shadow: grey;
+    
         
     
     
