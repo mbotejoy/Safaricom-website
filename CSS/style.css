@@ -56,11 +56,6 @@ input[type=text], select {
     border-radius: 5px;
     box-shadow: grey;
     
-        
-    
-    
-
-    
   }
   table {
     font-family: arial, sans-serif;
@@ -76,7 +71,8 @@ input[type=text], select {
   
   tr:nth-child(even) {
     background-color: #dddddd;
-  }
+  } 
+  
 /* Responsive design */
 @media screen and (max-width: 768px) {
     nav {

@@ -1,3 +1,3 @@
-<div class="Footer">
-            Copyright - Safaricom &copy; -All Rights Reserved
-            </div>
+        <footer >
+            <p>Copyright - Safaricom &copy; -All Rights Reserved</p>
+        </footer>
