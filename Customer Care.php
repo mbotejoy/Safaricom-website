@@ -15,10 +15,38 @@
     </style>
 </head>
 <body>
-<?php include_once("templates/nav.php");?>
+<?php 
+   include_once("templates/nav.php");
+  //Connection to the database
+   require_once("includes/db_connect.php");
 
-<?php//Connection to the database?>
-<?php require_once("includes/db_connect.php");?>
+
+   $Fullname = $_POST["Fullname"];
+   $email_address= $_POST["email_address"];
+   $subjectLine = $_POST["subjectLine"];
+   $message = $_POST["message"];
+   $Send_message = $_POST["Send_message"];
+
+
+   
+   
+   $sql = "INSERT INTO MyGuests (firstname, lastname, email)
+   VALUES ('John', 'Doe', 'john@example.com')";
+   
+   if ($conn->query($sql) === TRUE) {
+     echo "New record created successfully";
+   } else {
+     echo "Error: " . $sql . "<br>" . $conn->error;
+   }
+   
+   $conn->close();
+   
+
+
+
+
+
+ ?>
 
 
     <header>
@@ -39,13 +67,13 @@
         <forms action="<?php print htmlspecialchar($_SERVER("PHP_SELF"));?>" method= "POST"class="form">
         
             <label for="FN"> Fullname : </label><br>
-            <input type = "text" id= "FN" placeholder=" Enter Fullname"><br><br>
+            <input type = "text" id= "FN"name="Fullname" placeholder=" Enter Fullname"><br><br>
             <label for="Eaddress">Email Address : </Address></label><br>
-            <input type = "text" id= "Eaddress" placeholder="Enter your Email Address"><br><br>
+            <input type = "text" id= "Eaddress" name ="email_address" placeholder="Enter your Email Address"><br><br>
 
 
             <label for="sb">Subject:</label><br>
-            <select name="" id="sb">
+            <select name="subjectLine" id="sb">
                 <option value="">---Select Subject-</option>
                 <option value="1">Password Support</option>
                 <option value="2"> Mpesa Support</option>
@@ -55,7 +83,7 @@
             <label for="ms">More Information :</label><br><br>
             <textarea cols="50" rows="9" name="message" id="ms"></textarea><br><br>
     
-            <input type="submit" value="Send Message">
+            <input type="submit" name = "Send_message" value="Send Message">
        
 
 
