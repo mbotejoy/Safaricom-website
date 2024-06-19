@@ -20,6 +20,8 @@
   //Connection to the database
    require_once("includes/db_connect.php");
 
+
+   
    if(isset($_POST["Send_message"])){
     $Fullname = $_POST["Fullname"];
     $email_address = $_POST["email_address"];
@@ -35,9 +37,7 @@
     } else {
       echo "Error: " . $insert_message . "<br>" . $conn->error;
     }
-
    }
-
 
  ?>
 
