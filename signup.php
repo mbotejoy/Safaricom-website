@@ -10,6 +10,9 @@
 <?php// link for a navigation bar?>
 <?php include_once("templates/nav.php");?>
 
+<?php//Connection to the database?>
+<?php require_once("includes/db_connect.php");?>
+
      <header>
         <div class="header">
             <h1>Signup with Us Today</h1>
