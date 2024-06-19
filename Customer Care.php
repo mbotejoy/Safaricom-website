@@ -22,13 +22,13 @@
 
    if(isset($_POST["Send_message"])){
     $Fullname = $_POST["Fullname"];
-    $email_address= $_POST["email_address"];
+    $email_address = $_POST["email_address"];
     $subjectLine = $_POST["subjectLine"];
     $message = $_POST["message"];
    
     
-    $insert_message = "INSERT INTO Messages (firstname, lastname, email)
-    VALUES ('John', 'Doe', 'john@example.com')";
+    $insert_message = "INSERT INTO messages (senderName,senderAddress,subjectLine,Message)
+    VALUES ('$Fullname', '$email_address', '$subjectLine', '$message')";
     
     if ($conn->query($insert_message) === TRUE) {
       echo "New record created successfully";
