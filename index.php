@@ -37,6 +37,13 @@
         We offer many services just for you<br><br>
         Our mission is to to transform people's lives through technology<br><br>
         Feel Free to go through the rest of our Website to Know more about us <br><br>and what we have to offer!
+        <br><br>
+        
+          <img src="Images\image 4.jpg" alt="" width="70%" margin="left" >
+
+        
+
+                
     </div>
 
 
