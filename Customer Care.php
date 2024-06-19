@@ -36,7 +36,7 @@
         </h4>
     </div>
     <div class="form">
-        <forms action="" class="form">
+        <forms action="<?php print htmlspecialchar($_SERVER("PHP_SELF"));?>" method= "POST"class="form">
         
             <label for="FN"> Fullname : </label><br>
             <input type = "text" id= "FN" placeholder=" Enter Fullname"><br><br>
