@@ -42,27 +42,7 @@
 
     
 
-   
- <tr>
-    <td>Samsung  Galaxy S22 Ultra 256GB</td>
-    <td>135,000</td>
-    <td>15GB Data Bundle</td>
-</tr>
-<tr>
-    <td>Samsung  Galaxy S22 Ultra 512GB</td>
-    <td>184,999</td>
-    <td>15GB Data Bundle</td>
-</tr>
-<tr>
-    <td>Samsung Galaxy S23 Ultra 5G 256GB </td>
-    <td>44,000</td>
-    <td>12GB Data Bundle</td>
-</tr>
-<tr>
-    <td>Samsung Galaxy A54 256GB </td>
-    <td>16,500</td>
-    <td>10GB Data Bundle</td>
-</tr>
+
 
 <?php include_once("templates/footer.php");?>
 </body>
