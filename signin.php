@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php include_once("templates/nav.php");?>
-    
+
     <?php//Connection to the database?>
 <?php require_once("includes/db_connect.php");?>
 
@@ -38,6 +38,6 @@
             <label for="ms">Message:</label><br><br>
             <textarea cols="30" rows="7" name="message" id="ms"></textarea><br><br>
     
-            <input type="submit" value="Send Message">
+            <input type="submit" value="Sign In">
 </body>
 </html>
