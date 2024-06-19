@@ -20,30 +20,23 @@
   //Connection to the database
    require_once("includes/db_connect.php");
 
-
-   $Fullname = $_POST["Fullname"];
-   $email_address= $_POST["email_address"];
-   $subjectLine = $_POST["subjectLine"];
-   $message = $_POST["message"];
-   $Send_message = $_POST["Send_message"];
-
-
+   if(isset($_POST["Send_message"])){
+    $Fullname = $_POST["Fullname"];
+    $email_address= $_POST["email_address"];
+    $subjectLine = $_POST["subjectLine"];
+    $message = $_POST["message"];
    
-   
-   $sql = "INSERT INTO MyGuests (firstname, lastname, email)
-   VALUES ('John', 'Doe', 'john@example.com')";
-   
-   if ($conn->query($sql) === TRUE) {
-     echo "New record created successfully";
-   } else {
-     echo "Error: " . $sql . "<br>" . $conn->error;
+    
+    $sql = "INSERT INTO MyGuests (firstname, lastname, email)
+    VALUES ('John', 'Doe', 'john@example.com')";
+    
+    if ($conn->query($sql) === TRUE) {
+      echo "New record created successfully";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
    }
-   
-   $conn->close();
-   
-
-
-
 
 
  ?>
