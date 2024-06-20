@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2024 at 09:31 PM
+-- Generation Time: Jun 20, 2024 at 01:08 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -20,7 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `company`
 --
-DROP DATABASE IF EXISTS `company`;
 CREATE DATABASE IF NOT EXISTS `company` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `company`;
 
@@ -97,6 +96,22 @@ CREATE TABLE IF NOT EXISTS `employers` (
 INSERT INTO `employers` (`userid`, `fullname`, `email`, `password`) VALUES
 (0, 'Judy', 'judy@gmail.com', 'J4dy.000'),
 (1234, 'Harriet', 'haru@yahoo.com', 'Harriet1476');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `messages`
+--
+
+DROP TABLE IF EXISTS `messages`;
+CREATE TABLE IF NOT EXISTS `messages` (
+  `messageId` varchar(50) NOT NULL,
+  `senderName` text NOT NULL,
+  `senderAddress` varchar(50) NOT NULL,
+  `subjectLine` varchar(50) NOT NULL,
+  `Message` text NOT NULL,
+  PRIMARY KEY (`messageId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

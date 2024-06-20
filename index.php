@@ -33,6 +33,7 @@
 
     <div class="content">
     <img src="Images\image 4.jpg" alt="" width="70%" margin="left" >
+    <br><br>
     
     We are the future of today. We are the leading mobile service in Africa<br><br>
         We offer many services just for you<br><br>
