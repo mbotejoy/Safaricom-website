@@ -33,8 +33,23 @@
             </tr>
             <tr>
                 <td>Samsung Galaxy S22 256GB</td>
-                <td>115,000</td>
+                <td>KES 115,000</td>
                 <td>15GB Data Bundle</td>
+            </tr>
+            <tr>
+                <td>Samsung Galaxy A04B</td>
+                <td>KES 23,999</td>
+                <td>Free 3000 Airtime</td>
+            </tr>
+            <tr>
+                <td>Samsung A25</td>
+                <td>KES 41,699</td>
+                <td>Free 4000 Airtime</td>
+            </tr>
+            <tr>
+                <td>Infinix Smart 8</td>
+                <td>KES 17,115</td>
+                <td> Free 2000 Airtime</td>
             </tr>
             
         </table>
