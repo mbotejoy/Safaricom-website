@@ -8,7 +8,12 @@
 </head>
 <body>
 <?php include_once("templates/nav.php");?>
-
+<header>
+        <div class="header">
+            <h1>Contact Us</h1>
+        </div>
+        
+    </header>
         
 
         
