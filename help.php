@@ -7,19 +7,9 @@
     <link rel="stylesheet"href="css/style.Css">
 
     
-    <!--Internal Css-->
-    <style>
-        body{
-            background-image:url("Images/imge9.jpg");
-            background-size: 100%;
-        }
-        h1,h4{
-            background-image: url("Images/Green.jpg");
-            background-size: cover;
-
-        }
+  
                
-    </style>
+    
         
         
 </head>
