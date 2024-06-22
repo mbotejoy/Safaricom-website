@@ -17,7 +17,7 @@
     <body>
     <?php include_once("templates/nav.php");?>
         
-        <h1 style="text-align: center;color: green;"> How Can We Help ?</h1>
+        <h1> How Can We Help ?</h1>
         <h4 style="text-align: center;text-decoration: dotted;">Have Any Questions? Search through our Help Center</h4>
           
         
