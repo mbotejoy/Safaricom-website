@@ -52,9 +52,9 @@
                 <td>9% OFF</td>
             </tr>
             <tr>
-                <td>Infinix Smart 8</td>
-                <td>KES 17,115</td>
-                <td> Free 2000 Airtime</td>
+                <td>Nintendo Switch</td>
+                <td>KES 53,592</td>
+                <td> 4% OFF</td>
             </tr>
             
 
