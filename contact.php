@@ -9,9 +9,7 @@
 <body>
 <?php include_once("templates/nav.php");?>
 
-        <div class="Footer">
-            Copyright - Safaricom &copy; -All Rights Reserved
-            </div>
+        
 
         
         
