@@ -54,21 +54,28 @@ input[type=text], select {
     box-shadow: grey;
     
   }
-  table {
-    font-family: arial, sans-serif;
+  table{
+    border: solid 1px #373737;
+    width: 70%;
     border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
+}
+td{
+    border: solid 1px #373737;
+    padding: 5px;
     text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  } 
+}
+th{
+    background-color: rgba(0, 0, 0, 90%);
+    color: rgba(255, 255, 255, 90%);
+    padding: 5px;
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: bisque;
+}
+tr:hover{
+    background-color: rgb(243, 235, 225);
+}
 
 /* Responsive design */
 @media screen and (max-width: 768px) {
