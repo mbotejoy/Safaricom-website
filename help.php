@@ -17,7 +17,10 @@
     <body>
     <?php include_once("templates/nav.php");?>
         
-        <h1> How Can We Help You ?</h1>
+        <header> 
+            How Can We Help You ?
+
+        </header>
         <h4 style="text-align: center;text-decoration: dotted;">Have Any Questions? Search through our Help Center</h4>
           
         
