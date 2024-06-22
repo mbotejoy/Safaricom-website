@@ -47,10 +47,17 @@
                 <td>Free 4000 Airtime</td>
             </tr>
             <tr>
+                <td>Sony Playstation 5 Console Standard Edition 825GB</td>
+                <td>KES 90,132</td>
+                <td>9% OFF</td>
+            </tr>
+            <tr>
                 <td>Infinix Smart 8</td>
                 <td>KES 17,115</td>
                 <td> Free 2000 Airtime</td>
             </tr>
+            
+
             
         </table>
     
