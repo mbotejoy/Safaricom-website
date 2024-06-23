@@ -79,11 +79,13 @@
             <input type="submit" name = "Send_message" value="Send Message">
        
 
-
+           
 
 
     </forms>
     </div>
+
+    <?php include_once("templates/footer.php");?>
     
    
     
