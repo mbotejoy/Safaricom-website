@@ -44,14 +44,16 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  .form{
+.form{
     
     width: 50%;
-    margin: 5px 0;
     padding: 20px;
-    background-color: grey;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: grey;
+    margin :left;
+
+
     
   }
   table{

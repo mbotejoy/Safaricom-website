@@ -18,26 +18,26 @@
 <?php 
    include_once("templates/nav.php");
   //Connection to the database
-   require_once("includes/db_connect.php");
+  require_once("includes/db_connect.php");
 
 
    
-   if(isset($_POST["Send_message"])){
-    $Fullname = $_POST["Fullname"];
-    $email_address = $_POST["email_address"];
-    $subjectLine = $_POST["subjectLine"];
-    $message = $_POST["message"];
+  if(isset($_POST["Send_message"])){
+   $Fullname = $_POST["Fullname"];
+   $email_address = $_POST["email_address"];
+   $subjectLine = $_POST["subjectLine"];
+   $message = $_POST["message"];
+  
    
-    
-    $insert_message = "INSERT INTO messages (senderName,senderAddress,subjectLine,Message)
-    VALUES ('$Fullname', '$email_address', '$subjectLine', '$message')";
-    
-    if ($conn->query($insert_message) === TRUE) {
-      echo "New record created successfully";
-    } else {
-      echo "Error: " . $insert_message . "<br>" . $conn->error;
-    }
+   $insert_message = "INSERT INTO messages (senderName,senderAddress,subjectLine,Message)
+   VALUES ('$Fullname', '$email_address', '$subjectLine', '$message')";
+   
+   if ($conn->query($insert_message) === TRUE) {
+     echo "New record created successfully";
+   } else {
+     echo "Error: " . $insert_message . "<br>" . $conn->error;
    }
+  }
 
  ?>
 
@@ -57,7 +57,7 @@
         </h4>
     </div>
     <div class="form">
-        <forms action="<?php print htmlspecialchar($_SERVER("PHP_SELF"));?>" method= "POST"class="form">
+    <forms action="" class="form">
         
             <label for="FN"> Fullname : </label><br>
             <input type = "text" id= "FN"name="Fullname" placeholder=" Enter Fullname"><br><br>
