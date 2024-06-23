@@ -35,7 +35,7 @@ footer{
 .header{
     text-align: center;
 }
-input[type=text], select {
+input[type=text], [type=submit] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -51,7 +51,8 @@ input[type=text], select {
     background-color: grey;
     border-radius: 5px;
     box-shadow: grey;
-    margin :5px ;
+    margin :80px auto;
+    
 
 
     
