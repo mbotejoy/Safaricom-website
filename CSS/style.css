@@ -60,6 +60,9 @@ input[type=text], select {
     border: solid 1px #373737;
     width: 70%;
     border-collapse: collapse;
+    padding: 20px;
+    border-radius: 5px;
+    margin :80px auto;
 }
 td{
     border: solid 1px #373737;
