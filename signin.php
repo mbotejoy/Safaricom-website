@@ -30,5 +30,10 @@
            
     
             <input type="submit" value="Sign In" >
+        </forms>
+    </div>
+
+
+            <?php include_once("templates/footer.php");?>
 </body>
 </html> 
