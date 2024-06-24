@@ -27,13 +27,13 @@
    $text_message = $_POST["message"];
 
 
-   $sql = "INSERT INTO MyGuests (firstname, lastname, email)
-   VALUES ('John', 'Doe', 'john@example.com')";
+   $insert_message = "INSERT INTO messages ( senderName, senderAddress,subjectLine,Message)
+   VALUES ('$Fullname', ' $email', '$subject_line','$text_message')";
 
-   if ($conn->query($sql) === TRUE) {
+   if ($conn->query($insert_message) === TRUE) {
     echo "New record created successfully";
     } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error: " . $insert_message . "<br>" . $conn->error;
     }
  }
  ?>

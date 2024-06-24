@@ -35,7 +35,7 @@ footer{
 .header{
     text-align: center;
 }
-input[type=text], [type=submit] {
+input[type=text], [type=submit] ,[type = email]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
