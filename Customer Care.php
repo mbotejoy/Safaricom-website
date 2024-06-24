@@ -17,8 +17,21 @@
 <body>
 <?php 
    include_once("templates/nav.php");
-  //Connection to the database
- require_once("includes/db_connect.php");
+    //Connection to the database
+   require_once("includes/db_connect.php");
+
+
+   $sql = "INSERT INTO MyGuests (firstname, lastname, email)
+   VALUES ('John', 'Doe', 'john@example.com')";
+
+   if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+    } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    $conn->close();
+
 
  ?>
 
@@ -46,12 +59,12 @@
 
 
             <label for="sb">Subject:</label><br>
-            <select name="subjectLine" id="sb">
+            <select name="subject_line" id="sb">
                 <option value="">---Select Subject-</option>
-                <option value="1">Password Support</option>
-                <option value="2"> Mpesa Support</option>
-                <option value="3">FAQs Support</option>
-                <option value="4">Other</option><br><br>
+                <option value="Password Support">Password Support</option>
+                <option value="Mpesa Support"> Mpesa Support</option>
+                <option value="FAQs Support">FAQs Support</option>
+                <option value="Other">Other</option><br><br>
             </select><br><br>
             <label for="ms">More Information :</label><br><br>
             <textarea cols="50" rows="9" name="message" id="ms"></textarea><br><br>
