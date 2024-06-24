@@ -20,11 +20,7 @@
   //Connection to the database
  require_once("includes/db_connect.php");
 
-
-   
- 
  ?>
-
 
     <header>
         <div class="header">
@@ -41,7 +37,7 @@
         </h4>
     </div>
     <div class="form">
-    <forms action=""method="POST" class="form">
+    <forms action="" <?php print htmlspecialchars($_SERVER["PHP_SELF"]);?> method="POST" class="form">
         
             <label for="FN"> Fullname : </label><br>
             <input type = "text" id= "FN" name="Fullname" placeholder=" Enter Fullname"><br><br>
