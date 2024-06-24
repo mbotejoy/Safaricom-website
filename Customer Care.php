@@ -18,7 +18,13 @@
 <?php 
    include_once("templates/nav.php");
     //Connection to the database
-   require_once("includes/db_connect.php");
+   require_once("includes/db_connect.php"); 
+
+ if(isset($_POST["Send_message"])){
+   $Fullname = $_POST["Fullname"];
+   $email = $_POST["email_address"];
+   $subject_line = $_POST["subject_line"];
+   $text_message = $_POST["message"];
 
 
    $sql = "INSERT INTO MyGuests (firstname, lastname, email)
@@ -29,11 +35,9 @@
     } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
     }
-
-    $conn->close();
-
-
+ }
  ?>
+ 
 
     <header>
         <div class="header">
@@ -54,8 +58,8 @@
         
             <label for="FN"> Fullname : </label><br>
             <input type = "text" id= "FN" name="Fullname" placeholder=" Enter Fullname"><br><br>
-            <label for="Eaddress">Email Address : </Address></label><br>
-            <input type = "text" id= "Eaddress" name ="email_address" placeholder="Enter your Email Address"><br><br>
+            <label for="email">Email Address : </Address></label><br>
+            <input type = "email" id= "email" name ="email_address" placeholder="Enter your Email Address"><br><br>
 
 
             <label for="sb">Subject:</label><br>
@@ -68,7 +72,6 @@
             </select><br><br>
             <label for="ms">More Information :</label><br><br>
             <textarea cols="50" rows="9" name="message" id="ms"></textarea><br><br>
-    
             <input type="submit" name = "Send_message" value="Send Message">
        
 
