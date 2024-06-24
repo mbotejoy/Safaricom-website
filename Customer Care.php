@@ -22,7 +22,7 @@
 
  if(isset($_POST["Send_message"])){
    $Fullname = $_POST["Fullname"];
-   $email = $_POST["email_address"];
+   $email = $_POST["email_address"]; 
    $subject_line = $_POST["subject_line"];
    $text_message = $_POST["message"];
 
