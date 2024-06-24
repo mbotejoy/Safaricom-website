@@ -41,10 +41,10 @@
         </h4>
     </div>
     <div class="form">
-    <forms action="" class="form">
+    <forms action=""method="POST" class="form">
         
             <label for="FN"> Fullname : </label><br>
-            <input type = "text" id= "FN"name="Fullname" placeholder=" Enter Fullname"><br><br>
+            <input type = "text" id= "FN" name="Fullname" placeholder=" Enter Fullname"><br><br>
             <label for="Eaddress">Email Address : </Address></label><br>
             <input type = "text" id= "Eaddress" name ="email_address" placeholder="Enter your Email Address"><br><br>
 
