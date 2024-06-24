@@ -26,7 +26,7 @@
     
     </p>
     <h1 >Safaricom About Us</h1><br><br>
-    <img src="Images\about-us.jpg" alt="" width="50%" class="center" >
+    <img src="Images\about-us.jpg" alt="" class="center" >
     <p >What are we all about you may ask...<br><br>
         We sell all things from phones to routers for your internet<br> to also providing services for transaction of money
         <br>
