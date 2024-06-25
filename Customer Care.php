@@ -16,27 +16,28 @@
 </head>
 <body>
 <?php 
+   
    include_once("templates/nav.php");
-    //Connection to the database
-   require_once("includes/db_connect.php"); 
+   require_once("includes/db_connect.php");
 
- if(isset($_POST["Send_message"])){
-   $Fullname = $_POST["Fullname"];
-   $email = $_POST["email_address"]; 
-   $subject_line = $_POST["subject_line"];
-   $text_message = $_POST["message"];
-
-
-   $insert_message = "INSERT INTO messages ( senderName, senderAddress,subjectLine,Message)
-   VALUES ('$Fullname', ' $email', '$subject_line','$text_message')";
-
+   if(isset($_POST["Send_message"])){
+    $Fullname = $_POST["Fullname"];
+    $email = $_POST["emali_address"];
+    $subject_line = $_POST["subject_line"];
+    $text_message = $_POST["message"];
+ 
+   $insert_message = "INSERT INTO messages (senderName, senderAddress, subjectLine,Message)
+   VALUES ('$Fullname', '$email', '$subject_line','$text_message ')";
+   
    if ($conn->query($insert_message) === TRUE) {
-    echo "New record created successfully";
-    } else {
-    echo "Error: " . $insert_message . "<br>" . $conn->error;
-    }
- }
- ?>
+     echo "New record created successfully";
+   } else {
+     echo "Error: " . $insert_message . "<br>" . $conn->error;
+   }
+   
+
+   }
+?>   
  
 
     <header>
@@ -54,7 +55,7 @@
         </h4>
     </div>
     <div class="form">
-    <forms action="" <?php print htmlspecialchars($_SERVER["PHP_SELF"]);?> method="POST" class="form">
+    <forms action="<?php print htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" class="contact_form">
         
             <label for="FN"> Fullname : </label><br>
             <input type = "text" id= "FN" name="Fullname" placeholder=" Enter Fullname"><br><br>
