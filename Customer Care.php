@@ -64,7 +64,7 @@
 
 
             <label for="sb">Subject:</label><br>
-            <select name="subject_line" id="sb"required>
+            <select name="subject_line" id="sb" required >
                 <option value="">---Select Subject-</option>
                 <option value="Password Support">Password Support</option>
                 <option value="Mpesa Support"> Mpesa Support</option>
@@ -72,7 +72,7 @@
                 <option value="Other">Other</option><br><br>
             </select><br><br>
             <label for="ms">More Information :</label><br><br>
-            <textarea cols="50" rows="9" name="message" id="ms"></textarea><br><br>
+            <textarea cols="50" rows="9" name="message" id="ms" required></textarea><br><br>
             <input type="submit" name = "Send_message" value="Send Message">
        
 
