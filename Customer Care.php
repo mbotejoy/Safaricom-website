@@ -64,7 +64,7 @@
 
 
             <label for="sb">Subject:</label><br>
-            <select name="subject_line" id="sb">
+            <select name="subject_line" id="sb"required>
                 <option value="">---Select Subject-</option>
                 <option value="Password Support">Password Support</option>
                 <option value="Mpesa Support"> Mpesa Support</option>
