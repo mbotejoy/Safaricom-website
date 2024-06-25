@@ -58,9 +58,9 @@
     <forms action="<?php print htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" class="contact_form">
         
             <label for="FN"> Fullname : </label><br>
-            <input type = "text" id= "FN" name="Fullname" placeholder=" Enter Fullname"><br><br>
+            <input type = "text" id= "FN" name="Fullname" placeholder=" Enter Fullname" required><br><br>
             <label for="email">Email Address : </Address></label><br>
-            <input type = "email" id= "email" name ="email_address" placeholder="Enter your Email Address"><br><br>
+            <input type = "email" id= "email" name ="email_address" placeholder="Enter your Email Address" required><br><br>
 
 
             <label for="sb">Subject:</label><br>
