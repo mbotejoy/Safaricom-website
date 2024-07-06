@@ -4,7 +4,7 @@
     <a href="mpesa.php" >Mpesa</a>
     <a href="Customer Care.php" >Customer Care</a>
     <a href="shop.php" >Safaricom Shop</a>
-    <a href="contact.php" >Contact us</a>
+    <a href="yourInfo.php"> User Information</a>
     <a href="about.php">About</a>
     <a href="help.php" >Help</a>
 
