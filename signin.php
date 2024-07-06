@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignIn</title>
-    <link rel="stylesheet"href="css/style.css">
-</head>
+<?php include_once("templates/header.php")?>
 <body>
     <?php include_once("templates/nav.php");?>
 
     <?php//Connection to the database?>
 <?php require_once("includes/db_connect.php");?>
+
 
     <header>
         <div class="header">
