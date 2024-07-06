@@ -18,16 +18,11 @@
             From depositing to withdrawinor receiving and sending money<br>
             M-Pesa is a safe and secure way to do all these.
             <br><br>
+
+            <h3> OUR SERVICES</h3>
     </div>
-            <div class="side_bar">
-                <h3> OUR SERVICES</h3>
-                
-                
-
-                
             
-
-            </div>
+            
            
             
         
