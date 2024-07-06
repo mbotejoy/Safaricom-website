@@ -7,11 +7,11 @@
     <link rel="stylesheet"href="css/style.css">
     <style>
         h4{
-            text-align: center;font-size: x-large;
+            text-align: center;
 
         }
         p{
-            text-align: center;font-size: x-large;
+            text-align: center;
         }
     </style>
     
