@@ -1,4 +1,5 @@
 <?php include_once("templates/header.php")?>
+
 <body>
 <?php// link for a navigation bar?>
 <?php include_once("templates/nav.php");?>
