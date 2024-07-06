@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >Safaricom Home</title>
-    <!--LINK TO THE CSS FILE-->
-    <link rel="stylesheet"href="css/style.css">
+<?php include_once("templates/header.php")?>
    <!--INTERNAL CSS-->
    <style>
     p{
