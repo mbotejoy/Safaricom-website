@@ -25,7 +25,9 @@
             echo "Error: " . $insert_message . "<br>" . $conn->error;
         }
     }
+     
    }
+   
 ?>   
 
 <header>
