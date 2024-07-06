@@ -1,9 +1,10 @@
 <?php include_once("templates/header.php")?>
-<body>
-    <?php include_once("templates/nav.php");?>
 
-    <?php//Connection to the database?>
-<?php require_once("includes/db_connect.php");?>
+<body>
+    <?php include_once("templates/nav.php");
+
+    //Connection to the database
+    require_once("includes/db_connect.php");?>
 
 
     <header>
