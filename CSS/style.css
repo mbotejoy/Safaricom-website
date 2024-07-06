@@ -2,6 +2,9 @@ body{
     background-color: rgb(232, 175, 109);
     margin : 0;
 }
+h1{
+    text-align: center;
+}
 .topnav{
     background-color: grey;
     overflow: hidden;
