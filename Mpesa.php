@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"href="css/style.Css">
-    <title>Mpesa</title>
+<?php include_once("templates/header.php")?>
 
     <!--INTERNAL CSS-->
     <style>
@@ -14,9 +8,7 @@
         
         
     </style>
-  
 
-</head>
 
 <body>
 <header>
