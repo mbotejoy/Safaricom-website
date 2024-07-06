@@ -1,12 +1,15 @@
-<body>
+ <style>
+    h1,p{
+        text-align: center;
+    }
+ </style>
+ 
+ <body>
 <?php 
  include_once("templates/header.php");
  include_once("templates/nav.php");
  ?>
     
-    
-    
-    </p>
     <h1 >Safaricom About Us</h1><br><br>
     <img src="Images\about-us.jpg" alt="" class="center" >
     <p >What are we all about you may ask...<br><br>
@@ -25,9 +28,7 @@
         
     </p>
 
-    <footer >
-        <p>Copyright - Safaricom &copy; -All Rights Reserved</p>
-    </footer>
+<?php include_once("templates/footer.php");?>
 
 
 
