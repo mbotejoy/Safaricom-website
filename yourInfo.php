@@ -1,7 +1,12 @@
-<?php include_once("templates/header.php");?>
-
 <body>
-<?php include_once("templates/nav.php");?>
+<?php 
+
+include_once("templates/header.php");
+include_once("templates/nav.php");
+require_once("includes/db_connect.php");
+
+?>
+
 <header>
         <div class="header">
             <h1>Your Information</h1>
