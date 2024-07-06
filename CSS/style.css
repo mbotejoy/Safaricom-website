@@ -2,7 +2,13 @@ body{
     background-color: rgb(232, 175, 109);
     margin : 0;
 }
-h1,h3,p,Header,content{
+h1,h3,p,content{
+    text-align: center;
+}
+.header{
+    text-align: center;
+}
+.content{
     text-align: center;
 }
 .topnav{
