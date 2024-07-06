@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help</title>
     <link rel="stylesheet"href="css/style.css">
+    <style>
+        h4{
+            text-align: center;font-size: x-large;
+
+        }
+        p{
+            text-align: center;font-size: x-large;
+        }
+    </style>
     
         
 </head>
@@ -18,12 +27,12 @@
         <h1>How Can We Help You ?</h1>
     </div>
 </header>
-        <h4 style="text-align: center;text-decoration: dotted;">Have Any Questions? Search through our Help Center</h4>
+        <h4 >Have Any Questions? Search through our Help Center</h4>
           
         
-        <p style="text-align: center;font-size: x-large;">Get all the help you need every step of the way</p>
-        <input type="text"id="Search"placeholder="Search"/>
-        <label style="text-align: justify;" for="Search">Search</label>
+        <p>Get all the help you need every step of the way</p>
+        
+       
       
 
         <?php include_once("templates/footer.php");?>
