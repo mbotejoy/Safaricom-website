@@ -26,9 +26,7 @@
         <label style="text-align: justify;" for="Search">Search</label>
       
 
-        <div class="Footer">
-            Copyright - Safaricom &copy; -All Rights Reserved
-            </div>
+        <?php include_once("templates/footer.php");?>
 
 
 
