@@ -1,11 +1,13 @@
-<?php include_once("templates/header.php")?>
-
 <body>
-<?php// link for a navigation bar?>
-<?php include_once("templates/nav.php");?>
+<?php
+include_once("templates/header.php");
 
-<?php//Connection to the database?>
-<?php require_once("includes/db_connect.php");?>
+// link for a navigation bar
+include_once("templates/nav.php");
+
+//Connection to the database
+ require_once("includes/db_connect.php");
+ ?>
 
      <header>
         <div class="header">

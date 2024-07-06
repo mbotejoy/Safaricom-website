@@ -1,6 +1,7 @@
-<?php include_once("templates/header.php")?>
 <body>
-<?php include_once("templates/nav.php");?>
+<?php 
+  include_once("templates/header.php");
+  include_once("templates/nav.php");?>
     
 <header>
     <div class="header">

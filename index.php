@@ -1,22 +1,8 @@
-<?php include_once("templates/header.php")?>
-
-   <!--INTERNAL CSS-->
-   <style>
-    p{
-        text-align: center;
-    }
-    Header{
-        text-align: center;
-    }
-    content{
-        text-align: center;
-    }
-    
-   </style>
-
-</head>
 <body>
-<?php include_once("templates/nav.php");?>
+<?php 
+ include_once("templates/header.php");
+ include_once("templates/nav.php");
+ ?>
 
 <header>
     <div class="header">

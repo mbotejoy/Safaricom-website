@@ -1,18 +1,10 @@
-<?php include_once("templates/header.php")?>
-
-    <!--INTERNAL CSS-->
-    <style>
-        h1,h3{
-            text-align: center;
-        }
-        
-        
-    </style>
-
-
 <body>
 <header>
-<?php include_once("templates/nav.php");?>
+<?php 
+ include_once("templates/header.php");
+ include_once("templates/nav.php");
+?>
+
         <div class="header">
         
             <h1>MPESA Services</h1>
