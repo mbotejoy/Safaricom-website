@@ -2,7 +2,7 @@ body{
     background-color: rgb(232, 175, 109);
     margin : 0;
 }
-h1{
+h1,h3,p{
     text-align: center;
 }
 .topnav{
