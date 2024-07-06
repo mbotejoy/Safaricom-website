@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mpesa</title>
     <link rel="stylesheet"href="css/style.Css">
+    <title>Mpesa</title>
+
     <!--INTERNAL CSS-->
     <style>
         h1,h3{
@@ -16,9 +17,10 @@
   
 
 </head>
+
 <body>
-<?php include_once("templates/nav.php");?>
 <header>
+<?php include_once("templates/nav.php");?>
         <div class="header">
         
             <h1>MPESA Services</h1>
