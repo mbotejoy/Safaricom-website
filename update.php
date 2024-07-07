@@ -7,12 +7,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST["id"];
     $fullname = $_POST["Fullname"];
     $email = $_POST["email_address"];
-    $subjectLine = $_POST["subject_line"]; // Assuming corrected column name
+    $subjectLine = $_POST["subject_line"]; 
     $text_message = $_POST["message"];
+    
 
     // Update query using prepared statement
     $stmt = $conn->prepare("UPDATE message SET Fullname=?, email=?, subjectLine=?, message=? WHERE message_id=?");
     $stmt->bind_param("ssssi", $fullname, $email, $subjectLine, $text_message, $id);
+
     
     if ($stmt->execute()) {
         // Redirect to yourInfo.php after updating with success message
