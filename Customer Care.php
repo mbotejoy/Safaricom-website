@@ -32,6 +32,7 @@ include_once("templates/header.php");
                 echo "Error: " . $stmt->error;
             }
         }
+        
     }
 ?>
 
