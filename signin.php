@@ -15,12 +15,12 @@
     </header>
 
     <div class="form">
-        <forms action="" class="form">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" class="signup">
         
             <label for="Eaddress">Email Address : </Address></label><br>
-            <input type = "text" id= "Eaddress" placeholder="Enter your Email Address"><br><br>
+            <input type = "text" id= "Eaddress" placeholder="Enter your Email Address" required><br><br>
             <label for="Password"> Password : </label><br>
-            <input type = "text" id= "FN" placeholder=" Enter Password"><br><br>
+            <input type = "text" id= "FN" placeholder=" Enter Password" required><br><br>
 
 
            
