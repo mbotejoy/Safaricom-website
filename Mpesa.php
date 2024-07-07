@@ -1,15 +1,16 @@
 <body>
-<header>
+
 <?php 
  include_once("templates/header.php");
  include_once("templates/nav.php");
-?>
+?>  
 
-        <div class="header">
-        
-            <h1>MPESA Services</h1>
+<header>
+    <div class="header">
+    <h1>MPESA Services</h1>
 
-         </div>
+    </div>
+     
 </header>
 
     <div class="content">
@@ -20,6 +21,7 @@
             <br><br>
 
             <h3> OUR SERVICES</h3>
+      
     </div>
             
             

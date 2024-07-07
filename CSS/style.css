@@ -41,9 +41,6 @@ footer{
     text-align: center;
 }
 
-.header{
-    text-align: center;
-}
 input[type=text] ,[type = email],select,textarea{
     width: 100%;
     padding: 12px 20px;
