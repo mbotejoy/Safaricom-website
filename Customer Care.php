@@ -19,7 +19,7 @@ include_once("templates/header.php");
             echo "Invalid email format";
         } else {
             // Prepare SQL statement using placeholders
-            $insert_message = "INSERT INTO messages (fullname, email, subjectLine, message) VALUES (?, ?, ?, ?)";
+            $insert_message = "INSERT INTO message (fullname, email, subjectLine, message) VALUES (?, ?, ?, ?)";
             $stmt = $conn->prepare($insert_message);
 
             // Bind parameters
@@ -32,7 +32,7 @@ include_once("templates/header.php");
                 echo "Error: " . $stmt->error;
             }
         }
-        
+
     }
 ?>
 
